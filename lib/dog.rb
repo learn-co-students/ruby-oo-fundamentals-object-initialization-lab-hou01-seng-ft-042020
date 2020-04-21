@@ -5,7 +5,7 @@ class Dog
         @breed = breed
         @name = name
     end
-#requirement?
+#setter
     def name= (name)
         @name = name
     end
@@ -14,7 +14,7 @@ class Dog
         @breed = breed
     end
 
-#getter and setter methods
+#getter
     def name_get
         @name
     end
